@@ -7,8 +7,8 @@ This repository contains a simple React application that demonstrates the usage 
 .React Routing with 404 Page
 .Error Boundary for Graceful Error Handling
 
-Demo:
+# Demo:
 Check out the live demo here.
 
-Getting Started:
+# Getting Started:
 To run this application locally, follow the installation and setup instructions in the README.
