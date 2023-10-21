@@ -1,14 +1,29 @@
-# Custom-Counter-App
-This repository contains a simple React application that demonstrates the usage of a custom counter hook. The custom counter hook provides functionalities for incrementing, decrementing, resetting, and setting a custom value for the counter.
+# Custom Counter App
 
-# Key Features:
-.Custom Counter Hook
-.Increment, Decrement, Reset, and Custom Value Setting
-.React Routing with 404 Page
-.Error Boundary for Graceful Error Handling
+This is a simple React application that demonstrates the usage of a custom counter hook with increment, decrement, reset, and setValue functions. It also includes routing and a 404 page.
 
-# Demo:
-Check out the live demo here.
+## Installation
 
-# Getting Started:
-To run this application locally, follow the installation and setup instructions in the README.
+1. Clone this repository: `git clone <repository_url>`
+2. Navigate to the project directory: `cd custom-counter-app`
+3. Install dependencies: `npm install`
+
+## Usage
+
+### Custom Counter Hook
+
+The custom counter hook can be used in any component. Here's how to use it:
+
+```jsx
+import React from 'react';
+import useCustomCounter from './useCustomCounter';
+
+function MyComponent() {
+  const { count, increment, decrement, reset, setValue } = useCustomCounter(0);
+
+  return (
+    // Your component JSX here
+  );
+}
+
+export default MyComponent;
